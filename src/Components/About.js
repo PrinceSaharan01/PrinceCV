@@ -1,5 +1,7 @@
 import React from "react";
 
+import prince from "../images/Prince.png"
+
 const About = () => {
 
     return (
@@ -35,7 +37,7 @@ const About = () => {
                     <h2>About me</h2>
                     <div className="row">
                         <div className="col-md-4">
-                            <p><img src="Prince.png" className="img-responsive" alt=""></img></p>
+                            <p><img src={prince} className="img-responsive" alt=""></img></p>
                         </div>
                         <div className="col-md-8">
 

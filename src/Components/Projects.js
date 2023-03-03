@@ -1,5 +1,9 @@
 import React from "react";
 
+import github from "../images/github.png"
+import dashboard from "../images/Dashboard.PNG"
+import store from "../images/Store.PNG"
+
 const Projects = () => {
     return (
         // <div >
@@ -26,16 +30,16 @@ const Projects = () => {
                     <h2>Projects</h2>
                     <div className="row">
                         <div className="col-md-4">
-                            <img src="Dashboard.PNG" className="img-responsive" alt=""></img>
+                            <img src={dashboard} className="img-responsive" alt=""></img>
                             <h3 className="h5">React-Dashboard</h3>
                             <p>Dec 2022</p>
-                            <a href="https://github.com/PrinceSaharan01/react-dashboard" className="card-link"><img className="logos" src="github.png"></img>Core Code</a>
+                            <a href="https://github.com/PrinceSaharan01/react-dashboard" className="card-link"><img className="logos" src={github}></img>Core Code</a>
                         </div>
                         <div className="col-md-4">
-                            <img src="Store.PNG" className="img-responsive" alt=""></img>
+                            <img src={store} className="img-responsive" alt=""></img>
                             <h3 className="h5">Redux-Store</h3>
                             <p>Jan 2023</p>
-                            <a href="https://github.com/PrinceSaharan01/react-dashboard" className="card-link"><img className="logos" src="github.png"></img>Core Code</a>
+                            <a href="https://github.com/PrinceSaharan01/react-dashboard" className="card-link"><img className="logos" src={github}></img>Core Code</a>
                         </div>
                         
                     </div>
