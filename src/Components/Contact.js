@@ -2,37 +2,37 @@ import React from "react";
 
 const Contact = () => {
 
-    const submitted=() => {
+    // const submitted=() => {
 
-        setTimeout(() => {
+    //     setTimeout(() => {
 
 
-            <div className="alert alert-success" role="alert">
-                This is a success alert—check it out!
-            </div>
+    //         <div className="alert alert-success" role="alert">
+    //             This is a success alert—check it out!
+    //         </div>
 
-        }, 1500);
-    }
+    //     }, 1500);
+    // }
     return (
         <>
             <div className="card">
                 <div className="card-block">
                     <h2>Contact</h2>
-                    <form action="https://forms.gle/ZffvZDNfGNGTMjMb7" className="reveal-content">
+                    <form action="https://formspree.io/f/xjvdraeo" method="POST" className="reveal-content">
                         <div className="form-group">
-                            <input type="email" className="form-control" name="Email" placeholder="Email"></input>
+                            <input autoComplete="off" required  type="email" id="email" className="form-control" name="Email" placeholder="Email"></input>
                         </div>
                         <div className="form-group">
-                            <input type="email" className="form-control" name="Name" placeholder="Name"></input>
+                            <input autoComplete="off" required type="text" id="name" className="form-control" name="Name" placeholder="Name"></input>
                         </div>
                         <div className="form-group">
-                            <input type="text" className="form-control" name="Subject" placeholder="Subject"></input>
+                            <input autoComplete="off" required type="text" id="subject" className="form-control" name="Subject" placeholder="Subject"></input>
                         </div>
                         <div className="form-group">
-                            <textarea className="form-control" name="Message" rows="5" placeholder="Enter your message"></textarea>
+                            <textarea autoComplete="off" required className="form-control" id="message"  name="Message" rows="5" placeholder="Enter your message"></textarea>
                         </div>
                         <div className="form-group">
-                            <button onClick={submitted} type="submit" className=" btn btn-primary">Send message</button>
+                            <button  type="submit" className=" btn btn-primary">Send message</button>
                         </div>
                     </form>
                 </div>
