@@ -9,29 +9,30 @@ import Projects from "./Projects";
 import Social from "./Social";
 
 const Home = () => {
-    return (
-        <>
-            <main className="content-wrapper">
-                <Header></Header>
-                <div className="container">
-                    <div className="row">
-                        <div className="col-xs-12">
-                            <About></About>
-                            <Projects></Projects>
-                            <Education></Education>
-                            <Language></Language>
-                            <Social></Social>
-                            <Contact></Contact>
-                            <Footer></Footer>
 
-                        </div>
+return (
+    <>
+        <main className="content-wrapper">
+            <Header></Header>
+            <div className="container">
+                <div className="row">
+                    <div className="col-xs-12">
+                        <About></About>
+                        <Projects></Projects>
+                        <Education></Education>
+                        <Language></Language>
+                        <Social></Social>
+                        <Contact ></Contact>
+                        <Footer></Footer>
+
                     </div>
                 </div>
+            </div>
 
-            </main>
+        </main>
 
-        </>
-    )
+    </>
+)
 
 }
 export default Home;
