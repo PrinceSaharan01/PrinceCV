@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/PrinceCV/static/css/main.e29ccefe.css",
-    "main.js": "/PrinceCV/static/js/main.2edf6a61.js",
+    "main.js": "/PrinceCV/static/js/main.6006ac66.js",
     "static/js/787.46adffb7.chunk.js": "/PrinceCV/static/js/787.46adffb7.chunk.js",
     "static/media/Store.PNG": "/PrinceCV/static/media/Store.310a7074f56057d8005c.PNG",
     "static/media/Dashboard.PNG": "/PrinceCV/static/media/Dashboard.5622d9b454185d3db838.PNG",
@@ -9,11 +9,11 @@
     "static/media/maildark.png": "/PrinceCV/static/media/maildark.003f506bf01f2d4476eb.png",
     "index.html": "/PrinceCV/index.html",
     "main.e29ccefe.css.map": "/PrinceCV/static/css/main.e29ccefe.css.map",
-    "main.2edf6a61.js.map": "/PrinceCV/static/js/main.2edf6a61.js.map",
+    "main.6006ac66.js.map": "/PrinceCV/static/js/main.6006ac66.js.map",
     "787.46adffb7.chunk.js.map": "/PrinceCV/static/js/787.46adffb7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e29ccefe.css",
-    "static/js/main.2edf6a61.js"
+    "static/js/main.6006ac66.js"
   ]
 }
